@@ -1,0 +1,30 @@
+Package: icc.isvm
+Type: Package
+Title: Inverse Covariance Clustering on Implied Stochastic Volatility Models
+Version: 0.2.0
+Author: Danial Saef, Yuanrong Wang, Tomaso Aste
+Maintainer: Danial Saef <danial.saef@hu-berlin.de>
+Description: This library serves as a companion to the publication "Clustering the implied volatility surface of Bitcoin options over time". However it can also be used independently for clustering high dimensional datasets and fitting an implied stochastic volatility model.
+Imports:
+    xts,
+    zoo,
+    imputeTS,
+    data.table,
+    readr, 
+    stringr,
+    lubridate,
+    ggplot2,
+    grid,
+    gridExtra,
+    scales,
+    np,
+    latex2exp,
+    parallel, 
+    rmatio, 
+    reticulate,
+    beepr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Roxygen: list(markdown = TRUE)

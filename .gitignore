@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/data/
+/plots/
+.DS_Store
+*__pycache__*
+*.RData
