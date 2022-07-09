@@ -22,7 +22,7 @@ Instead, we leverage recent advances in market regime (MR) clustering with the I
 
 In this publication, we applied this integrated time-regime clustering and ISVM method (termed MR-ISVM) to high-frequency data on BTC options at the popular trading platform Deribit. We demonstrate that MR-ISVM contributes to overcome the burden of complex adaption to jumps in higher order characteristics of option pricing models. This allows us to price the market based on the expectations of its participants in an adaptive fashion.
 
-For the exact methodology we refer to the methodology section of this paper, as well as \@massara_learning_2019 \@procacci_forecasting_2019, \@wang_dynamic_2022 for ICC, as well as \@ait-sahalia_implied_2021 for the ISVM methodology. Similar implementations can be found in those original works, however not for tbe MR-ISVM approach.
+For the exact methodology we refer to the methodology section of this paper, as well as @massara_learning_2019, @procacci_forecasting_2019, @wang_dynamic_2022 for ICC, as well as @ait-sahalia_implied_2021 for the ISVM methodology. Similar implementations can be found in those original works, however not for tbe MR-ISVM approach.
 
 ```{r initialize, message = FALSE, warning = FALSE, results = "hide", echo = FALSE}
 #### install and load packages ####

@@ -36,10 +36,10 @@ price the market based on the expectations of its participants in an
 adaptive fashion.
 
 For the exact methodology we refer to the methodology section of this
-paper, as well as @massara_learning_2019 @procacci_forecasting_2019,
-@wang_dynamic_2022 for ICC, as well as @ait-sahalia_implied_2021 for the
-ISVM methodology. Similar implementations can be found in those original
-works, however not for tbe MR-ISVM approach.
+paper, as well as Massara and Aste (2019), Procacci and Aste (2019),
+Wang and Aste (2022) for ICC, as well as Aït-Sahalia, Li, and Li (2021)
+for the ISVM methodology. Similar implementations can be found in those
+original works, however not for tbe MR-ISVM approach.
 
 # 2 Usage
 
@@ -82,3 +82,38 @@ make_plots(ICC_ISVM_list_K2, SAVE_PLOTS = FALSE)
 ```
 
 # 3 References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-ait-sahalia_implied_2021" class="csl-entry">
+
+Aït-Sahalia, Yacine, Chenxu Li, and Chen Xu Li. 2021. “Implied
+Stochastic Volatility Models.” *The Review of Financial Studies* 34 (1):
+394–450. <https://doi.org/10.1093/rfs/hhaa041>.
+
+</div>
+
+<div id="ref-massara_learning_2019" class="csl-entry">
+
+Massara, Guido Previde, and Tomaso Aste. 2019. “Learning Clique
+Forests,” May. <https://doi.org/10.48550/arXiv.1905.02266>.
+
+</div>
+
+<div id="ref-procacci_forecasting_2019" class="csl-entry">
+
+Procacci, Pier Francesco, and Tomaso Aste. 2019. “Forecasting Market
+States.” *Quantitative Finance* 19 (9): 1491–98.
+<https://doi.org/10.1080/14697688.2019.1622313>.
+
+</div>
+
+<div id="ref-wang_dynamic_2022" class="csl-entry">
+
+Wang, Yuanrong, and Tomaso Aste. 2022. “Dynamic Portfolio Optimization
+with Inverse Covariance Clustering.” 2112.15499. arXiv.org.
+<https://doi.org/10.48550/arXiv.2112.15499>.
+
+</div>
+
+</div>
