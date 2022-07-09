@@ -1,12 +1,13 @@
-Inverse Covariance Clustering on Implied Stochastic Volatility Models
+Regime-based Implied Stochastic Volatility Model for Crypto Option
+Pricing
 ================
 Saef, Danial; Wang, Yuanrong; Aste, Tomaso
 07/09/2022
 
-This library serves as a companion to the publication “Clustering the
-implied volatility surface of Bitcoin options over time”. However it can
-also be used independently for clustering high dimensional datasets and
-fitting an implied stochastic volatility model.
+This library serves as a companion to the publication “Regime-based
+Implied Stochastic Volatility Model for Crypto Option Pricing”. However
+it can also be used independently for clustering high dimensional
+datasets and fitting an implied stochastic volatility model.
 
 # 1 Methodology
 
