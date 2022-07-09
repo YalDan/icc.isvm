@@ -1,7 +1,7 @@
 Inverse Covariance Clustering on Implied Stochastic Volatility Models
 ================
-Saef, Danial; Wang, Yuanrong
-4/27/2022
+Saef, Danial; Wang, Yuanrong; Aste, Tomaso
+07/09/2022
 
 This library serves as a companion to the publication “Clustering the
 implied volatility surface of Bitcoin options over time”. However it can
@@ -39,7 +39,7 @@ For the exact methodology we refer to the methodology section of this
 paper, as well as Massara and Aste (2019), Procacci and Aste (2019),
 Wang and Aste (2022) for ICC, as well as Aït-Sahalia, Li, and Li (2021)
 for the ISVM methodology. Similar implementations can be found in those
-original works, however not for tbe MR-ISVM approach.
+original works, however not for the MR-ISVM approach.
 
 # 2 Usage
 
