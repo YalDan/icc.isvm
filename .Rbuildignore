@@ -1,2 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^DT_sample\.csv$
+^Readme\.Rmd$
+^/data/$
+^/plots/$
+^.*\.RData$
