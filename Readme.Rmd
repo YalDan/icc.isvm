@@ -54,8 +54,8 @@ library(icc.isvm)
 Now we can just load a suitable dataset and run the `fit_ICC_ISVM` function. Note that as of now, the bootstrapping estimation of ISVM requires the function `mclapply` from the `parallel` package. This unfortunately won't work on Windows machines. A Windows friendly implementation is however planned in the future, as well as the option to deactivate parallel computing. ICC can also be calculated in parallel setting `parallel_ICC = TRUE`, however this is still experimental and it is recommended to leave it at default. Inside the function `fit_ICC_ISVM` is also a minimalistic example on how to run ICC and ISVM individually.
 
 ```{r load data, message = FALSE, warning = FALSE, echo = TRUE}
-DT_BTC_deribit <- fread("DT_sample.csv")
-DT_BTC_deribit_sample <- fit_ICC_ISVM(DT_full = DT_BTC_deribit,
+DT_BTC_deribit_sample <- fread("DT_sample.csv")
+ICC_ISVM_list_K2 <- fit_ICC_ISVM(DT_full = DT_BTC_deribit_sample,
                               last_date = as.Date("2022-01-28"),
                               K = 2,
                               gamma = 0.5)

@@ -68,8 +68,8 @@ is recommended to leave it at default. Inside the function
 individually.
 
 ``` r
-DT_BTC_deribit <- fread("DT_sample.csv")
-DT_BTC_deribit_sample <- fit_ICC_ISVM(DT_full = DT_BTC_deribit,
+DT_BTC_deribit_sample <- fread("DT_sample.csv")
+ICC_ISVM_list_K2 <- fit_ICC_ISVM(DT_full = DT_BTC_deribit_sample,
                               last_date = as.Date("2022-01-28"),
                               K = 2,
                               gamma = 0.5)
